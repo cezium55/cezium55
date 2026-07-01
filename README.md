@@ -37,7 +37,11 @@ I am a final-semester BCA student based in Delhi NCR, specializing in building s
 
 ---
 
+---
+
 ### GitHub Analytics
+
+Here is a live look at my latest development activity and language distribution:
 
 ![Garvit's GitHub Stats](https://github-readme-stats.vercel.app/api?username=cezium55&show_icons=true&theme=tokyonight)
 
