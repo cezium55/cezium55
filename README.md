@@ -1,47 +1,206 @@
-# Hey, I'm Garvit Gaur 👋
-### Backend & Cloud Infrastructure Engineer
+<div align="center">
 
-I am a final-semester BCA student based in Delhi NCR, specializing in building scalable web services and optimizing database performance. I am currently executing a rigorous 6-month backend architecture sprint to transition into a high-impact startup role. 
+```text
+ ██████╗███████╗███████╗██╗██╗   ██╗███╗   ███╗
+██╔════╝██╔════╝╚══███╔╝██║██║   ██║████╗ ████║
+██║     █████╗    ███╔╝ ██║██║   ██║██╔████╔██║
+██║     ██╔══╝   ███╔╝  ██║██║   ██║██║╚██╔╝██║
+╚██████╗███████╗███████╗██║╚██████╔╝██║ ╚═╝ ██║
+ ╚═════╝╚══════╝╚══════╝╚═╝ ╚═════╝ ╚═╝     ╚═╝
+```
 
-- **Currently building:** A high-performance, Next.js/Postgres/MongoDB e-commerce platform with a custom message-queue backend.
-- **Recently shipped:** A real-time Performance Analytics Dashboard using Next.js, Python, and MongoDB.
-- **Currently mastering:** Advanced Node.js, DSA, and AWS cloud deployments.
+[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Backend+Engineer+%7C+Full-Stack+Developer;Building+Developer+Tools+%26+Distributed+Systems;Cloud+%7C+AI+%7C+System+Design;Always+Learning+Something+Low-Level)](https://git.io/typing-svg)
 
----
-
-### Core Stack
-
-**Languages & Frameworks** ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
-
-**Databases & Infrastructure** ![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+</div>
 
 ---
 
-### Featured Engineering Work
+```bash
+visitor@github:~$ cat ./about_me.txt
 
-**1. API Performance Monitor** *Containerized, multi-tenant uptime tracking dashboard.*
-* Engineered a non-blocking background polling engine using Python `asyncio` to handle concurrent API pinging without freezing the main server.
-* Integrated a Motor (Async MongoDB) database for high-throughput time-series logging, yielding control to the event loop during heavy I/O operations.
-* Secured multi-tenant data access using Argon2 hashed JWTs.
+ Name      : Garvit Gaur
+ Handle     : cezium55
+ Degree     : BCA @ GGSIPU
 
-**2. Performance Analytics Dashboard** *Full-stack telemetry and visualization platform.*
-* Architected backend logic in Python to handle real-time session-level metrics logging.
-* Structured a scalable NoSQL database schema to accommodate rapid, continuous data inserts.
-* Collaborated seamlessly across the stack, managing the backend data flow while connecting to the frontend Next.js architecture.
+ Focus      : Backend Engineering
+              Full-Stack Development
+              Distributed Systems
+              Developer Tools
+              Cloud & DevOps
+              AI-powered Applications
+
+ Currently  : Building software from the protocol level
+              to production-ready cloud deployments.
+
+ Status     : █████████░  Grinding
+
+ Open To    : Open Source • Startup Opportunities • Collaboration
+```
 
 ---
 
+# > tech.stack
+
+## Languages
+
+![Python](https://skillicons.dev/icons?i=python)
+![TypeScript](https://skillicons.dev/icons?i=ts)
+![JavaScript](https://skillicons.dev/icons?i=js)
+![C++](https://skillicons.dev/icons?i=cpp)
+![SQL](https://skillicons.dev/icons?i=mysql)
+![Bash](https://skillicons.dev/icons?i=bash)
+
 ---
 
-### GitHub Analytics
+## Frontend
+
+![React](https://skillicons.dev/icons?i=react)
+![Next.js](https://skillicons.dev/icons?i=nextjs)
+![Tailwind](https://skillicons.dev/icons?i=tailwind)
+![HTML](https://skillicons.dev/icons?i=html)
+![CSS](https://skillicons.dev/icons?i=css)
+
+---
+
+## Backend
+
+![FastAPI](https://skillicons.dev/icons?i=fastapi)
+![Node.js](https://skillicons.dev/icons?i=nodejs)
+![Express](https://skillicons.dev/icons?i=express)
+
+---
+
+## Databases
+
+![Postgres](https://skillicons.dev/icons?i=postgres)
+![MongoDB](https://skillicons.dev/icons?i=mongodb)
+![Redis](https://skillicons.dev/icons?i=redis)
+
+---
+
+## DevOps & Cloud
+
+![Docker](https://skillicons.dev/icons?i=docker)
+![GitHub Actions](https://skillicons.dev/icons?i=githubactions)
+![AWS](https://skillicons.dev/icons?i=aws)
+![Linux](https://skillicons.dev/icons?i=linux)
+![Git](https://skillicons.dev/icons?i=git)
+
+---
+
+# > currently.working_on
+
+```python
+current = {
+    "learning": [
+        "Distributed Systems",
+        "System Design",
+        "Cloud Architecture (AWS)",
+        "Docker & Kubernetes",
+        "CI/CD Pipelines",
+        "Computer Networking",
+        "Operating Systems",
+        "LLM Engineering"
+    ],
+
+    "building": [
+        "ByteCache",
+        "ForgeGit",
+        "Scout AI",
+        "CodeTwin"
+    ],
+
+    "solving": "100 LeetCode Problems",
+
+    "contributing": "Open Source (FastAPI • Python • Developer Tools)",
+
+    "reading": [
+        "Designing Data-Intensive Applications",
+        "Operating Systems: Three Easy Pieces",
+        "Computer Networking: A Top-Down Approach"
+    ],
+
+    "goal_2026":
+        "Become a startup-ready Backend & Full-Stack Engineer by building "
+        "production-grade distributed systems, AI developer tools, "
+        "and cloud-native applications."
+}
+```
+
+---
+
+# > engineering.interests
+
+```text
+✓ Backend Engineering
+
+✓ Distributed Systems
+
+✓ Developer Tools
+
+✓ AI Infrastructure
+
+✓ Cloud Native Applications
+
+✓ Databases
+
+✓ System Design
+
+✓ Performance Engineering
+
+✓ Open Source
+
+✓ Low-Level Computer Science
+```
+
+---
+
+# > github.stats
+
+(keep your existing GitHub stats section)
+
+---
+
+# > pinned.projects
+
+🚧 Building in Public
+
+• ByteCache — Redis Clone
+
+• BareMetal HTTP — HTTP Server from Scratch
+
+• ForgeGit — Git Clone
+
+• Tetrix Engine — Tetris Engine
+
+• AutoFolio — Self-Updating Portfolio
+
+• PulsePet — DevOps Tamagotchi
+
+• Scout AI — Offline AI Search Engine
+
+• PulseScope — PC Diagnostics Platform
+
+• CodeTwin — AI Developer Assistant
+
+---
+
+# > contact.init()
+
+```python
+contact = {
+    "github": "github.com/cezium55",
+    "email": "Available on request",
+    "status": "Open to startup opportunities & open-source collaboration"
+}
+
+print("Let's build something awesome 🚀")
+```
+
+---
 
 <div align="center">
-  <img height="195px" src="https://github-readme-stats.vercel.app/api?username=cezium55&show_icons=true&theme=tokyonight&cache=1" alt="GitHub Stats" />
-  <img height="195px" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cezium55&layout=compact&theme=tokyonight&cache=1" alt="Top Languages" />
+
+> *"Build things that teach you how computers actually work."*
+
 </div>
