@@ -18,7 +18,7 @@
 ```bash
 visitor@github:~$ cat ./about_me.txt
 
- Name      : Garvit Gaur
+ Name       : Garvit Gaur
  Handle     : cezium55
  Degree     : BCA @ GGSIPU
 
@@ -27,7 +27,6 @@ visitor@github:~$ cat ./about_me.txt
               Distributed Systems
               Developer Tools
               Cloud & DevOps
-              AI-powered Applications
 
  Currently  : Building software from the protocol level
               to production-ready cloud deployments.
@@ -134,12 +133,6 @@ current = {
 ```text
 ✓ Backend Engineering
 
-✓ Distributed Systems
-
-✓ Developer Tools
-
-✓ AI Infrastructure
-
 ✓ Cloud Native Applications
 
 ✓ Databases
@@ -157,31 +150,42 @@ current = {
 
 # > github.stats
 
-(keep your existing GitHub stats section)
+<div align="center">
+
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=cezium55&show_icons=true&hide_border=true&bg_color=0d1117&title_color=00ff88&icon_color=00cc66&text_color=c8fcd8&count_private=true&rank_icon=github" />
+
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cezium55&layout=compact&hide_border=true&bg_color=0d1117&title_color=00ff88&text_color=c8fcd8&langs_count=8" />
+
+</div>
+
+<div align="center">
+
+[![GitHub Streak](https://streak-stats.demolab.com?user=cezium55&theme=dark&hide_border=true&background=0d1117&ring=00ff88&fire=00cc66&currStreakLabel=00ff88&sideLabels=c8fcd8&dates=4a7a5a&stroke=1a2a1a&currStreakNum=ffffff&sideNums=ffffff)](https://git.io/streak-stats)
+
+</div>
+
+---
+
+# > activity.graph
+
+<div align="center">
+
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=cezium55&bg_color=0d1117&color=00ff88&line=00cc66&point=ffffff&area=true&area_color=003322&hide_border=true&radius=8)](https://github.com/ashutosh00710/github-readme-activity-graph)
+
+</div>
 
 ---
 
 # > pinned.projects
 
-🚧 Building in Public
-
-• ByteCache — Redis Clone
-
-• BareMetal HTTP — HTTP Server from Scratch
-
-• ForgeGit — Git Clone
-
-• Tetrix Engine — Tetris Engine
-
-• AutoFolio — Self-Updating Portfolio
-
-• PulsePet — DevOps Tamagotchi
-
-• Scout AI — Offline AI Search Engine
-
-• PulseScope — PC Diagnostics Platform
-
-• CodeTwin — AI Developer Assistant
+| Project | Description | Stack |
+|---------|-------------|-------|
+| [**⬡ Posture Monitor Web**](https://github.com/cezium55/Posture-Monitor-Web) | Real-time posture analytics platform with asynchronous WebSocket telemetry, JWT authentication, and live health dashboards. | `FastAPI` `Next.js` `WebSockets` `MongoDB` `TypeScript` |
+| [**⬡ API Performance Monitor**](https://github.com/cezium55/api-performance-monitor) | Multi-tenant uptime monitoring platform powered by asyncio background workers, Docker, and real-time service health visualization. | `FastAPI` `Next.js` `MongoDB` `Docker` `AsyncIO` |
+| [**⬡ Consumer Complaints Radar**](https://github.com/cezium55/consumer-complaints-radar) | Data analytics platform that transforms consumer complaint datasets into actionable insights using ETL pipelines and interactive dashboards. | `Power BI` `PostgreSQL` `Python` `Web Scraping` |
+| **⬡ ByteCache** *(Coming Soon)* | Redis-compatible in-memory database featuring concurrent TCP clients, TTL expiration, and persistence implemented from scratch. | `Python` `TCP` `AsyncIO` |
+| **⬡ Scout AI** *(Coming Soon)* | Offline semantic search engine for code, documents, screenshots, and notes using local AI and vector search. | `Next.js` `FastAPI` `PostgreSQL` `Redis` `Qdrant` |
+| **⬡ CodeTwin** *(Coming Soon)* | AI developer assistant that understands repositories, coding style, and architecture to provide personalized code insights. | `Next.js` `FastAPI` `Neo4j` `Redis` `Docker` |
 
 ---
 
@@ -194,7 +198,7 @@ contact = {
     "status": "Open to startup opportunities & open-source collaboration"
 }
 
-print("Let's build something awesome 🚀")
+print("Let's build something awesome")
 ```
 
 ---
