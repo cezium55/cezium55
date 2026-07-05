@@ -13,6 +13,11 @@
 
 </div>
 
+<!-- 👁️ Visitor Counter -->
+<div align="center">
+  <img src="https://komarev.com/ghpvc/?username=cezium55&label=Profile+Views&style=for-the-badge&color=6C63FF" alt="Visitor Count" />
+</div>
+
 ---
 
 ```bash
@@ -40,7 +45,10 @@ visitor@github:~$ cat ./about_me.txt
 
 # > tech.stack
 
+
 ## Languages
+
+<div align="center">
 
 ![Python](https://skillicons.dev/icons?i=python)
 ![TypeScript](https://skillicons.dev/icons?i=ts)
@@ -49,9 +57,13 @@ visitor@github:~$ cat ./about_me.txt
 ![SQL](https://skillicons.dev/icons?i=mysql)
 ![Bash](https://skillicons.dev/icons?i=bash)
 
+</div>
+
 ---
 
 ## Frontend
+
+<div align="center">
 
 ![React](https://skillicons.dev/icons?i=react)
 ![Next.js](https://skillicons.dev/icons?i=nextjs)
@@ -59,31 +71,45 @@ visitor@github:~$ cat ./about_me.txt
 ![HTML](https://skillicons.dev/icons?i=html)
 ![CSS](https://skillicons.dev/icons?i=css)
 
+</div>
+
 ---
 
 ## Backend
 
+<div align="center">
+ 
 ![FastAPI](https://skillicons.dev/icons?i=fastapi)
 ![Node.js](https://skillicons.dev/icons?i=nodejs)
 ![Express](https://skillicons.dev/icons?i=express)
+
+</div>
 
 ---
 
 ## Databases
 
+<div align="center">
+
 ![Postgres](https://skillicons.dev/icons?i=postgres)
 ![MongoDB](https://skillicons.dev/icons?i=mongodb)
 ![Redis](https://skillicons.dev/icons?i=redis)
 
+</div>
+
 ---
 
 ## DevOps & Cloud
+
+<div align="center">
 
 ![Docker](https://skillicons.dev/icons?i=docker)
 ![GitHub Actions](https://skillicons.dev/icons?i=githubactions)
 ![AWS](https://skillicons.dev/icons?i=aws)
 ![Linux](https://skillicons.dev/icons?i=linux)
 ![Git](https://skillicons.dev/icons?i=git)
+
+</div>
 
 ---
 
@@ -99,7 +125,6 @@ current = {
         "CI/CD Pipelines",
         "Computer Networking",
         "Operating Systems",
-        "LLM Engineering"
     ],
 
     "building": [
@@ -108,8 +133,6 @@ current = {
         "Scout AI",
         "CodeTwin"
     ],
-
-    "solving": "100 LeetCode Problems",
 
     "contributing": "Open Source (FastAPI • Python • Developer Tools)",
 
@@ -152,9 +175,9 @@ current = {
 
 <div align="center">
 
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=cezium55&show_icons=true&hide_border=true&bg_color=0d1117&title_color=00ff88&icon_color=00cc66&text_color=c8fcd8&count_private=true&rank_icon=github" />
+<img height="170" src="https://github-readme-stats.vercel.app/api?username=cezium55&show_icons=true&hide_border=true&bg_color=0d1117&title_color=00ff88&icon_color=00cc66&text_color=c8fcd8&rank_icon=github&count_private=true&include_all_commits=true"/>
 
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cezium55&layout=compact&hide_border=true&bg_color=0d1117&title_color=00ff88&text_color=c8fcd8&langs_count=8" />
+<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cezium55&layout=compact&hide_border=true&bg_color=0d1117&title_color=00ff88&text_color=c8fcd8&langs_count=8"/>
 
 </div>
 
@@ -175,6 +198,44 @@ current = {
 </div>
 
 ---
+
+# > profile.summary
+
+<div align="center">
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=cezium55&theme=github_dark"/>
+
+</div>
+
+<div align="center">
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=cezium55&theme=github_dark"/>
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=cezium55&theme=github_dark"/>
+
+</div>
+
+<div align="center">
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=cezium55&theme=github_dark"/>
+
+<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=cezium55&theme=github_dark&utcOffset=5.5"/>
+
+</div>
+
+---
+
+# > contribution.snake
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/cezium55/cezium55/output/github-contribution-grid-snake-dark.svg"/>
+
+</div>
+
+
+
+</div>
 
 # > pinned.projects
 
