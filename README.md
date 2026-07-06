@@ -9,44 +9,42 @@
  ╚═════╝╚══════╝╚══════╝╚═╝ ╚═════╝ ╚═╝     ╚═╝
 ```
 
-[![Typing SVG](https://readme-typing-svg.demolab.com/?lines=Backend+Engineer+%7C+Full-Stack+Developer;Building+Developer+Tools+%26+Distributed+Systems;Cloud+%7C+AI+%7C+System+Design;Always+Learning+Something+Low-Level)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&duration=3500&pause=1000&color=00FF88&center=true&vCenter=true&width=900&lines=Backend+Engineer+%7C+Full-Stack+Developer;Building+Developer+Tools+%7C+Distributed+Systems;FastAPI+%7C+Next.js+%7C+Python;Always+Learning+Something+New)](https://git.io/typing-svg)
 
-</div>
+**CS undergrad building backend systems and dev tools — currently deep in distributed systems, Docker, and CI/CD.**
 
-<!-- 👁️ Visitor Counter -->
-<div align="center">
-  <img src="https://komarev.com/ghpvc/?username=cezium55&label=Profile+Views&style=for-the-badge&color=6C63FF" alt="Visitor Count" />
+</br>
+
+<img src="https://komarev.com/ghpvc/?username=cezium55&label=PROFILE+VIEWS&style=for-the-badge&color=00cc66&labelColor=161b22"/>
+
 </div>
 
 ---
 
 ```bash
-visitor@github:~$ cat ./about_me.txt
+visitor@github:~$ cat profile.txt
 
- Name       : Garvit Gaur
- Handle     : cezium55
- Degree     : BCA @ GGSIPU
+Name      : Garvit Gaur
+Handle    : cezium55
+Education : BCA @ GGSIPU
 
- Focus      : Backend Engineering
-              Full-Stack Development
-              Distributed Systems
-              Developer Tools
-              Cloud & DevOps
+Focus     : Backend Engineering
+            Full-Stack Development
+            Distributed Systems
+            Developer Tools
 
- Currently  : Building software from the protocol level
-              to production-ready cloud deployments.
+Currently : Building production-ready software
+            and learning how systems work under the hood.
 
- Status     : █████████░  Grinding
-
- Open To    : Open Source • Startup Opportunities • Collaboration
+Open To   : Backend / Full-Stack Internships
+            Open Source Collaboration
 ```
 
 ---
 
 # > tech.stack
 
-
-## Languages
+### Languages
 
 <div align="center">
 
@@ -54,40 +52,25 @@ visitor@github:~$ cat ./about_me.txt
 ![TypeScript](https://skillicons.dev/icons?i=ts)
 ![JavaScript](https://skillicons.dev/icons?i=js)
 ![C++](https://skillicons.dev/icons?i=cpp)
-![SQL](https://skillicons.dev/icons?i=mysql)
+![Postgres](https://skillicons.dev/icons?i=postgres)
 ![Bash](https://skillicons.dev/icons?i=bash)
 
 </div>
 
----
-
-## Frontend
+### Frameworks
 
 <div align="center">
 
-![React](https://skillicons.dev/icons?i=react)
-![Next.js](https://skillicons.dev/icons?i=nextjs)
-![Tailwind](https://skillicons.dev/icons?i=tailwind)
-![HTML](https://skillicons.dev/icons?i=html)
-![CSS](https://skillicons.dev/icons?i=css)
-
-</div>
-
----
-
-## Backend
-
-<div align="center">
- 
 ![FastAPI](https://skillicons.dev/icons?i=fastapi)
-![Node.js](https://skillicons.dev/icons?i=nodejs)
+![React](https://skillicons.dev/icons?i=react)
+![NextJS](https://skillicons.dev/icons?i=nextjs)
+![NodeJS](https://skillicons.dev/icons?i=nodejs)
 ![Express](https://skillicons.dev/icons?i=express)
+![Tailwind](https://skillicons.dev/icons?i=tailwind)
 
 </div>
 
----
-
-## Databases
+### Databases
 
 <div align="center">
 
@@ -97,99 +80,65 @@ visitor@github:~$ cat ./about_me.txt
 
 </div>
 
----
-
-## DevOps & Cloud
+### Tools
 
 <div align="center">
 
 ![Docker](https://skillicons.dev/icons?i=docker)
-![GitHub Actions](https://skillicons.dev/icons?i=githubactions)
-![AWS](https://skillicons.dev/icons?i=aws)
-![Linux](https://skillicons.dev/icons?i=linux)
 ![Git](https://skillicons.dev/icons?i=git)
+![Linux](https://skillicons.dev/icons?i=linux)
+![Vscode](https://skillicons.dev/icons?i=vscode)
 
 </div>
 
 ---
 
-# > currently.working_on
+# > current.focus
 
 ```python
 current = {
+    "building": {
+        "BareMetal HTTP" : "HTTP server from raw TCP sockets",
+        "ByteCache"      : "Redis-inspired in-memory database",
+        "ForgeGit"       : "Git implementation from scratch",
+        "PulsePet"       : "Real-time infrastructure monitoring pet",
+        "Scout AI"       : "Offline AI semantic search engine",
+        "PulseScope"     : "Intelligent PC performance diagnostics"
+    },
+
     "learning": [
         "Distributed Systems",
         "System Design",
-        "Cloud Architecture (AWS)",
-        "Docker & Kubernetes",
-        "CI/CD Pipelines",
-        "Computer Networking",
-        "Operating Systems",
+        "Cloud & DevOps"
     ],
-
-    "building": [
-        "ByteCache",
-        "ForgeGit",
-        "Scout AI",
-        "CodeTwin"
-    ],
-
-    "contributing": "Open Source (FastAPI • Python • Developer Tools)",
 
     "reading": [
-        "Designing Data-Intensive Applications",
-        "Operating Systems: Three Easy Pieces",
-        "Computer Networking: A Top-Down Approach"
+        "Designing Data-Intensive Applications"
     ],
 
-    "goal_2026":
-        "Become a startup-ready Backend & Full-Stack Engineer by building "
-        "production-grade distributed systems, AI developer tools, "
-        "and cloud-native applications."
+    "open_source": "Backend • Python • FastAPI"
 }
 ```
 
 ---
 
-# > engineering.interests
+# > featured.projects
 
-```text
-✓ Backend Engineering
-
-✓ Cloud Native Applications
-
-✓ Databases
-
-✓ System Design
-
-✓ Performance Engineering
-
-✓ Open Source
-
-✓ Low-Level Computer Science
-```
+| Project | Description | Stack |
+|---------|-------------|-------|
+| [**⬡ Posture Monitor Web**](https://github.com/cezium55/Posture-Monitor-Web) | Real-time posture monitoring platform with live analytics, WebSocket streaming and computer vision. | `FastAPI` `Next.js` `MongoDB` `WebSockets` |
+| [**⬡ API Performance Monitor**](https://github.com/cezium55/api-performance-monitor) | Monitor website uptime using asynchronous background workers, Docker and live dashboards. | `FastAPI` `Next.js` `MongoDB` `Docker` `AsyncIO` |
+| [**⬡ Consumer Complaints Radar**](https://github.com/cezium55/consumer-complaints-radar) | ETL pipeline and Power BI dashboard for analyzing large consumer complaint datasets. | `Python` `PostgreSQL` `Power BI` |
 
 ---
 
-# > github.stats
-
-<div align="center">
-
-<img height="170" src="https://github-readme-stats.vercel.app/api?username=cezium55&show_icons=true&hide_border=true&bg_color=0d1117&title_color=00ff88&icon_color=00cc66&text_color=c8fcd8&rank_icon=github&count_private=true&include_all_commits=true"/>
-
-<img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=cezium55&layout=compact&hide_border=true&bg_color=0d1117&title_color=00ff88&text_color=c8fcd8&langs_count=8"/>
-
-</div>
+# > github.activity
 
 <div align="center">
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=cezium55&theme=dark&hide_border=true&background=0d1117&ring=00ff88&fire=00cc66&currStreakLabel=00ff88&sideLabels=c8fcd8&dates=4a7a5a&stroke=1a2a1a&currStreakNum=ffffff&sideNums=ffffff)](https://git.io/streak-stats)
 
 </div>
-
----
-
-# > activity.graph
 
 <div align="center">
 
@@ -199,73 +148,30 @@ current = {
 
 ---
 
-# > profile.summary
-
-<div align="center">
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=cezium55&theme=github_dark"/>
-
-</div>
-
-<div align="center">
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=cezium55&theme=github_dark"/>
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=cezium55&theme=github_dark"/>
-
-</div>
-
-<div align="center">
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=cezium55&theme=github_dark"/>
-
-<img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=cezium55&theme=github_dark&utcOffset=5.5"/>
-
-</div>
-
----
-
 # > contribution.snake
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/cezium55/cezium55/output/github-contribution-grid-snake-dark.svg"/>
+<img src="https://raw.githubusercontent.com/cezium55/cezium55/output/github-contribution-grid-snake-dark.svg" alt="Contribution Snake"/>
 
 </div>
-
-
-
-</div>
-
-# > pinned.projects
-
-| Project | Description | Stack |
-|---------|-------------|-------|
-| [**⬡ Posture Monitor Web**](https://github.com/cezium55/Posture-Monitor-Web) | Real-time posture analytics platform with asynchronous WebSocket telemetry, JWT authentication, and live health dashboards. | `FastAPI` `Next.js` `WebSockets` `MongoDB` `TypeScript` |
-| [**⬡ API Performance Monitor**](https://github.com/cezium55/api-performance-monitor) | Multi-tenant uptime monitoring platform powered by asyncio background workers, Docker, and real-time service health visualization. | `FastAPI` `Next.js` `MongoDB` `Docker` `AsyncIO` |
-| [**⬡ Consumer Complaints Radar**](https://github.com/cezium55/consumer-complaints-radar) | Data analytics platform that transforms consumer complaint datasets into actionable insights using ETL pipelines and interactive dashboards. | `Power BI` `PostgreSQL` `Python` `Web Scraping` |
-| **⬡ ByteCache** *(Coming Soon)* | Redis-compatible in-memory database featuring concurrent TCP clients, TTL expiration, and persistence implemented from scratch. | `Python` `TCP` `AsyncIO` |
-| **⬡ Scout AI** *(Coming Soon)* | Offline semantic search engine for code, documents, screenshots, and notes using local AI and vector search. | `Next.js` `FastAPI` `PostgreSQL` `Redis` `Qdrant` |
-| **⬡ CodeTwin** *(Coming Soon)* | AI developer assistant that understands repositories, coding style, and architecture to provide personalized code insights. | `Next.js` `FastAPI` `Neo4j` `Redis` `Docker` |
 
 ---
 
-# > contact.init()
+# > contact
 
-```python
-contact = {
-    "github": "github.com/cezium55",
-    "email": "Available on request",
-    "status": "Open to startup opportunities & open-source collaboration"
-}
+```bash
+GitHub   : github.com/cezium55
 
-print("Let's build something awesome")
+Linkedin : www.linkedin.com/in/garvit-gaur-81507525b
+
+Gmail    : garvitgaur47@gmail.com
 ```
 
 ---
 
 <div align="center">
 
-> *"Build things that teach you how computers actually work."*
+<sub>Thanks for stopping by 👋</sub>
 
 </div>
