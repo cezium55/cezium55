@@ -9,9 +9,9 @@
  ╚═════╝╚══════╝╚══════╝╚═╝ ╚═════╝ ╚═╝     ╚═╝
 ```
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&duration=3500&pause=1000&color=00FF88&center=true&vCenter=true&width=900&lines=Backend+Engineer+%7C+Full-Stack+Developer;Building+Developer+Tools+%7C+Distributed+Systems;FastAPI+%7C+Next.js+%7C+Python;Always+Learning+Something+New)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&duration=3500&pause=1000&color=00FF88&center=true&vCenter=true&width=900&lines=Backend+Engineer+%7C+Full-Stack+Developer;Building+Systems+From+First+Principles;FastAPI+%7C+Node.js+%7C+Python;Redis%2C+HTTP%2C+and+What%27s+Under+the+Framework)](https://git.io/typing-svg)
 
-**CS undergrad building backend systems and dev tools — currently deep in distributed systems, Docker, and CI/CD.**
+**CS undergrad who builds the thing the framework normally hides — reimplemented Redis and an HTTP server from raw sockets to actually understand what's underneath.**
 
 </br>
 
@@ -29,9 +29,9 @@ Handle    : cezium55
 Education : BCA @ GGSIPU
 
 Focus     : Backend Engineering
+            Systems Programming
             Full-Stack Development
-            Distributed Systems
-            Developer Tools
+            Real-Time & Concurrent Systems
 
 Currently : Building production-ready software
             and learning how systems work under the hood.
@@ -93,17 +93,28 @@ Open To   : Backend / Full-Stack Internships
 
 ---
 
+# > featured.projects
+
+| Project | Description | Stack |
+|---------|-------------|-------|
+| [**⬡ mini-redis**](https://github.com/cezium55/mini-redis) | An in-memory data store built from scratch — implements core Redis commands, persistence, and pub/sub to understand what actually happens under `SET`/`GET`, not just how to call them. | `Python` `Sockets` `Systems Design` |
+| [**⬡ BareMetal HTTP**](https://github.com/cezium55/BareMetal-HTTP) | An HTTP server built directly on raw TCP sockets — handles concurrent connections and request routing without a framework doing the work underneath. | `Python` `TCP/Sockets` `Networking` |
+| [**⬡ ChaosProxy**](https://github.com/cezium55/ChaosProxy) | A network chaos + concurrency testing proxy — injects latency/packet loss and fires concurrent bursts at a target endpoint to expose real race conditions live, with results streamed to a dashboard. | `FastAPI` `Next.js` `WebSockets` `Redis` `Postgres` |
+| [**⬡ Posture Monitor Web**](https://github.com/cezium55/Posture-Monitor-Web) | Real-time posture monitoring platform with live analytics, WebSocket streaming, and computer vision. | `FastAPI` `Next.js` `MongoDB` `WebSockets` |
+| [**⬡ API Performance Monitor**](https://github.com/cezium55/api-performance-monitor) | Monitors website uptime using asynchronous background workers, with Redis-backed caching and live dashboards, containerized end to end. | `FastAPI` `Next.js` `MongoDB` `Redis` `Docker` `AsyncIO` |
+| [**⬡ Consumer Complaints Radar**](https://github.com/cezium55/consumer-complaints-radar) | ETL pipeline and Power BI dashboard for analyzing large consumer complaint datasets. | `Python` `PostgreSQL` `Power BI` |
+
+> 🔗 Live demos linked on each repo — see individual READMEs for setup + screenshots.
+
+---
+
 # > current.focus
 
 ```python
 current = {
     "building": {
-        "BareMetal HTTP" : "HTTP server from raw TCP sockets",
-        "ByteCache"      : "Redis-inspired in-memory database",
-        "ForgeGit"       : "Git implementation from scratch",
-        "PulsePet"       : "Real-time infrastructure monitoring pet",
-        "Scout AI"       : "Offline AI semantic search engine",
-        "PulseScope"     : "Intelligent PC performance diagnostics"
+        "Load Balancer"  : "Simple request-distribution layer, paired with ChaosProxy",
+        "Scout AI"       : "Offline AI semantic search engine"
     },
 
     "learning": [
@@ -119,16 +130,6 @@ current = {
     "open_source": "Backend • Python • FastAPI"
 }
 ```
-
----
-
-# > featured.projects
-
-| Project | Description | Stack |
-|---------|-------------|-------|
-| [**⬡ Posture Monitor Web**](https://github.com/cezium55/Posture-Monitor-Web) | Real-time posture monitoring platform with live analytics, WebSocket streaming and computer vision. | `FastAPI` `Next.js` `MongoDB` `WebSockets` |
-| [**⬡ API Performance Monitor**](https://github.com/cezium55/api-performance-monitor) | Monitor website uptime using asynchronous background workers, Docker and live dashboards. | `FastAPI` `Next.js` `MongoDB` `Docker` `AsyncIO` |
-| [**⬡ Consumer Complaints Radar**](https://github.com/cezium55/consumer-complaints-radar) | ETL pipeline and Power BI dashboard for analyzing large consumer complaint datasets. | `Python` `PostgreSQL` `Power BI` |
 
 ---
 
