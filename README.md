@@ -9,7 +9,7 @@
  ╚═════╝╚══════╝╚══════╝╚═╝ ╚═════╝ ╚═╝     ╚═╝
 ```
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&duration=3500&pause=1000&color=00FF88&center=true&vCenter=true&width=900&lines=Backend+Engineer+%7C+Full-Stack+Developer;Building+Systems+From+First+Principles;FastAPI+%7C+Node.js+%7C+Python;Sockets%2C+Protocols%2C+and+What%27s+Under+the+Framework)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&duration=3500&pause=1000&color=00FF88&center=true&vCenter=true&width=900&lines=Backend+Engineer+%7C+Full-Stack+Developer)](https://github.com/cezium55)
 
 **CS undergrad who builds the thing the framework normally hides — rebuilt an HTTP server and a Redis-style store from raw TCP sockets to actually understand what's underneath.**
 
@@ -97,13 +97,35 @@ Open To   : Backend / Full-Stack Internships
 
 | Project | Description | Stack |
 |---------|-------------|-------|
-| [**⬡ mini-redis-from-scratch**](https://github.com/cezium55/mini-redis-from-scratch) | Two systems built from raw TCP sockets in one repo: a hand-rolled HTTP/1.0 server and a Redis-style in-memory store, running as isolated processes that talk over a custom binary protocol — no frameworks doing the work underneath. | `Python` `Raw Sockets` `gevent` |
-| [**⬡ API Performance Monitor**](https://github.com/cezium55/api-performance-monitor) | Async FastAPI backend that polls dozens of tracked URLs on a schedule without blocking incoming requests, with JWT auth, Argon2 hashing, and MongoDB storage. Fully containerized. Dashboard UI is next on the roadmap. | `FastAPI` `MongoDB` `Docker` `AsyncIO` |
-| [**⬡ Posture Monitor**](https://github.com/cezium55/Posture-Monitor-Web) | Real-time posture-tracking backend — MediaPipe/OpenCV computer vision streamed live over per-user WebSocket rooms, with JWT auth and MongoDB session logging. | `FastAPI` `WebSockets` `MediaPipe` `MongoDB` |
-| [**⬡ Caching Proxy CLI**](https://github.com/cezium55/caching-proxy-cli) | Command-line proxy that sits in front of any API and caches responses to disk, returning instant HIT/MISS results instead of re-hitting the origin server every time. | `Node.js` `Express` `CLI` |
+| [**⬡ mini-redis-from-scratch**](https://github.com/cezium55/mini-redis-from-scratch) | A systems-focused two-part repo that implements a hand-rolled HTTP/1.0 server and a Redis-style in-memory key-value store. Built from raw TCP sockets to learn socket programming, request parsing, command handling, and simple concurrency. Includes basic command support (SET/GET/EXPIRE), an LRU-like eviction approach, and microbenchmarks. See the project README for run instructions and benchmarking results. | C++, sockets, raw TCP, benchmarking |
+| [**⬡ API Performance Monitor**](https://github.com/cezium55/api-performance-monitor) | An asynchronous FastAPI backend that periodically polls many URLs on a schedule without blocking incoming requests. Designed for efficient concurrency using async HTTP clients, stores metrics in Postgres, and exposes endpoints for aggregated reports and health checks. Includes scheduler, retry/backoff, and simple alerting hooks. | Python, FastAPI, AsyncIO, Postgres |
+| [**⬡ Posture Monitor**](https://github.com/cezium55/Posture-Monitor-Web) | Real-time posture-tracking system: computer vision (MediaPipe/OpenCV) runs server-side and streams per-user posture data over WebSocket rooms. Frontend displays live posture feedback. Focused on low-latency streaming and per-user isolation. | Python, MediaPipe, OpenCV, WebSockets |
+| [**⬡ Caching Proxy CLI**](https://github.com/cezium55/caching-proxy-cli) | A command-line proxy that sits in front of any HTTP API and caches responses to disk. Returns HIT/MISS results instantly, supports configurable TTLs, and can be used as a lightweight offline cache for faster development and testing. | Node.js / Python (CLI), HTTP proxy, disk cache |
 
+> 🔗 Live demos and setup instructions are in each repo's own README. If a project has a demo or quickstart, the project README contains a "Quickstart" section with one-line commands or a Docker compose example.
 
-> 🔗 Live demos and setup instructions are in each repo's own README.
+---
+
+# > project.highlights
+
+A concise summary you can use on a resume or in interviews. For full technical details, open the project READMEs linked above.
+
+- mini-redis-from-scratch
+  - Implemented a Redis-inspired in-memory store and a minimal HTTP/1.0 server using raw TCP sockets to learn the fundamentals of networking and request parsing.
+  - Implemented basic commands (SET, GET, EXPIRE) and an eviction strategy; added microbenchmarks to measure commands/sec and memory usage.
+  - Focus areas: low-level sockets, parsing, concurrency model, and benchmarking.
+
+- API Performance Monitor
+  - Built an async FastAPI service that schedules and performs concurrent URL checks, aggregates latency/availability metrics, and persists results to Postgres.
+  - Focus areas: async IO, connection pooling, backoff/retry strategies, and creating efficient non-blocking schedulers.
+
+- Posture Monitor
+  - Engineered a live posture-tracking pipeline using MediaPipe + OpenCV and streamed processed frames/metrics over WebSocket rooms to per-user frontends.
+  - Focus areas: real-time streaming, video processing pipelines, and WebSocket room management.
+
+- Caching Proxy CLI
+  - Created a lightweight CLI proxy that caches HTTP responses to disk with TTL-based invalidation and reports HIT/MISS for fast development workflows.
+  - Focus areas: HTTP proxying, caching policies, CLI UX.
 
 ---
 
@@ -136,7 +158,7 @@ current = {
 
 <div align="center">
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=cezium55&theme=dark&hide_border=true&background=0d1117&ring=00ff88&fire=00cc66&currStreakLabel=00ff88&sideLabels=c8fcd8&dates=4a7a5a&stroke=1a2a1a&currStreakNum=ffffff&sideNums=ffffff)](https://github.com/cezium55)
+[![GitHub Streak](https://streak-stats.demolab.com?user=cezium55&theme=dark&hide_border=true&background=0d1117&ring=00ff88&fire=00cc66&currStreakLabel=00ff88&sideLabels=c8fcd8&dates=4a7a5a&stroke=1a2a)](https://github.com/cezium55)
 
 </div>
 
