@@ -9,9 +9,9 @@
  ╚═════╝╚══════╝╚══════╝╚═╝ ╚═════╝ ╚═╝     ╚═╝
 ```
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&duration=3500&pause=1000&color=00FF88&center=true&vCenter=true&width=900&lines=Backend+Engineer+%7C+Full-Stack+Developer;Building+Systems+From+First+Principles;FastAPI+%7C+Node.js+%7C+Python;Redis%2C+HTTP%2C+and+What%27s+Under+the+Framework)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&duration=3500&pause=1000&color=00FF88&center=true&vCenter=true&width=900&lines=Backend+Engineer+%7C+Full-Stack+Developer;Building+Systems+From+First+Principles;FastAPI+%7C+Node.js+%7C+Python;Sockets%2C+Protocols%2C+and+What%27s+Under+the+Framework)](https://git.io/typing-svg)
 
-**CS undergrad who builds the thing the framework normally hides — reimplemented Redis and an HTTP server from raw sockets to actually understand what's underneath.**
+**CS undergrad who builds the thing the framework normally hides — rebuilt an HTTP server and a Redis-style store from raw TCP sockets to actually understand what's underneath.**
 
 </br>
 
@@ -97,14 +97,13 @@ Open To   : Backend / Full-Stack Internships
 
 | Project | Description | Stack |
 |---------|-------------|-------|
-| [**⬡ mini-redis**](https://github.com/cezium55/mini-redis) | An in-memory data store built from scratch — implements core Redis commands, persistence, and pub/sub to understand what actually happens under `SET`/`GET`, not just how to call them. | `Python` `Sockets` `Systems Design` |
-| [**⬡ BareMetal HTTP**](https://github.com/cezium55/BareMetal-HTTP) | An HTTP server built directly on raw TCP sockets — handles concurrent connections and request routing without a framework doing the work underneath. | `Python` `TCP/Sockets` `Networking` |
-| [**⬡ ChaosProxy**](https://github.com/cezium55/ChaosProxy) | A network chaos + concurrency testing proxy — injects latency/packet loss and fires concurrent bursts at a target endpoint to expose real race conditions live, with results streamed to a dashboard. | `FastAPI` `Next.js` `WebSockets` `Redis` `Postgres` |
-| [**⬡ Posture Monitor Web**](https://github.com/cezium55/Posture-Monitor-Web) | Real-time posture monitoring platform with live analytics, WebSocket streaming, and computer vision. | `FastAPI` `Next.js` `MongoDB` `WebSockets` |
-| [**⬡ API Performance Monitor**](https://github.com/cezium55/api-performance-monitor) | Monitors website uptime using asynchronous background workers, with Redis-backed caching and live dashboards, containerized end to end. | `FastAPI` `Next.js` `MongoDB` `Redis` `Docker` `AsyncIO` |
-| [**⬡ Consumer Complaints Radar**](https://github.com/cezium55/consumer-complaints-radar) | ETL pipeline and Power BI dashboard for analyzing large consumer complaint datasets. | `Python` `PostgreSQL` `Power BI` |
+| [**⬡ mini-redis-from-scratch**](https://github.com/cezium55/mini-redis-from-scratch) | Two systems built from raw TCP sockets in one repo: a hand-rolled HTTP/1.0 server and a Redis-style in-memory store, running as isolated processes that talk over a custom binary protocol — no frameworks doing the work underneath. | `Python` `Raw Sockets` `gevent` |
+| [**⬡ API Performance Monitor**](https://github.com/cezium55/api-performance-monitor) | Async FastAPI backend that polls dozens of tracked URLs on a schedule without blocking incoming requests, with JWT auth, Argon2 hashing, and MongoDB storage. Fully containerized. Dashboard UI is next on the roadmap. | `FastAPI` `MongoDB` `Docker` `AsyncIO` |
+| [**⬡ Posture Monitor**](https://github.com/cezium55/Posture-Monitor-Web) | Real-time posture-tracking backend — MediaPipe/OpenCV computer vision streamed live over per-user WebSocket rooms, with JWT auth and MongoDB session logging. | `FastAPI` `WebSockets` `MediaPipe` `MongoDB` |
+| [**⬡ Caching Proxy CLI**](https://github.com/cezium55/caching-proxy-cli) | Command-line proxy that sits in front of any API and caches responses to disk, returning instant HIT/MISS results instead of re-hitting the origin server every time. | `Node.js` `Express` `CLI` |
 
-> 🔗 Live demos linked on each repo — see individual READMEs for setup + screenshots.
+
+> 🔗 Live demos and setup instructions are in each repo's own README.
 
 ---
 
@@ -113,7 +112,7 @@ Open To   : Backend / Full-Stack Internships
 ```python
 current = {
     "building": {
-        "Load Balancer"  : "Simple request-distribution layer, paired with ChaosProxy",
+        "Load Balancer"  : "Simple request-distribution layer to pair with the sockets project",
         "Scout AI"       : "Offline AI semantic search engine"
     },
 
@@ -137,13 +136,13 @@ current = {
 
 <div align="center">
 
-[![GitHub Streak](https://streak-stats.demolab.com?user=cezium55&theme=dark&hide_border=true&background=0d1117&ring=00ff88&fire=00cc66&currStreakLabel=00ff88&sideLabels=c8fcd8&dates=4a7a5a&stroke=1a2a1a&currStreakNum=ffffff&sideNums=ffffff)](https://git.io/streak-stats)
+[![GitHub Streak](https://streak-stats.demolab.com?user=cezium55&theme=dark&hide_border=true&background=0d1117&ring=00ff88&fire=00cc66&currStreakLabel=00ff88&sideLabels=c8fcd8&dates=4a7a5a&stroke=1a2a1a&currStreakNum=ffffff&sideNums=ffffff)](https://github.com/cezium55)
 
 </div>
 
 <div align="center">
 
-[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=cezium55&bg_color=0d1117&color=00ff88&line=00cc66&point=ffffff&area=true&area_color=003322&hide_border=true&radius=8)](https://github.com/ashutosh00710/github-readme-activity-graph)
+[![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=cezium55&bg_color=0d1117&color=00ff88&line=00cc66&point=ffffff&area=true&area_color=003322&hide_border=true&radius=8)](https://github.com/cezium55)
 
 </div>
 
@@ -164,7 +163,7 @@ current = {
 ```bash
 GitHub   : github.com/cezium55
 
-Linkedin : www.linkedin.com/in/garvit-gaur-81507525b
+LinkedIn : www.linkedin.com/in/garvit-gaur-81507525b
 
 Gmail    : garvitgaur47@gmail.com
 ```
