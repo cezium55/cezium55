@@ -97,7 +97,7 @@ Open To   : Backend / Full-Stack Internships
 
 | Project | Description | Stack |
 |---------|-------------|-------|
-| [**⬡ mini-redis-from-scratch**](https://github.com/cezium55/mini-redis-from-scratch) | Two systems built from raw TCP sockets in one repo: a hand-rolled HTTP/1.0 server and a Redis-style in-memory store, running as isolated processes that talk over a custom binary protocol — no frameworks doing the work underneath. | `Python` `Raw Sockets` `gevent` |
+| [**⬡ Mini Redis From Scratch**](https://github.com/cezium55/mini-redis-from-scratch) | Two systems built from raw TCP sockets in one repo: a hand-rolled HTTP/1.0 server and a Redis-style in-memory store, running as isolated processes that talk over a custom binary protocol — no frameworks doing the work underneath. | `Python` `Raw Sockets` `gevent` |
 | [**⬡ API Performance Monitor**](https://github.com/cezium55/api-performance-monitor) | Async FastAPI backend that polls dozens of tracked URLs on a schedule without blocking incoming requests, with JWT auth, Argon2 hashing, and MongoDB storage. Fully containerized. Dashboard UI is next on the roadmap. | `FastAPI` `MongoDB` `Docker` `AsyncIO` |
 | [**⬡ Posture Monitor**](https://github.com/cezium55/Posture-Monitor-Web) | Real-time posture-tracking backend — MediaPipe/OpenCV computer vision streamed live over per-user WebSocket rooms, with JWT auth and MongoDB session logging. | `FastAPI` `WebSockets` `MediaPipe` `MongoDB` |
 | [**⬡ Caching Proxy CLI**](https://github.com/cezium55/caching-proxy-cli) | Command-line proxy that sits in front of any API and caches responses to disk, returning instant HIT/MISS results instead of re-hitting the origin server every time. | `Node.js` `Express` `CLI` |
