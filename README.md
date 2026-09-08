@@ -11,7 +11,7 @@
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&duration=3500&pause=1000&color=00FF88&center=true&vCenter=true&width=900&lines=Backend+Engineer+%7C+Full-Stack+Developer;Building+Systems+From+First+Principles;FastAPI+%7C+Node.js+%7C+Python;Sockets%2C+Protocols%2C+and+What%27s+Under+the+Framework)](https://git.io/typing-svg)
 
-**CS undergrad who builds the thing the framework normally hides — rebuilt an HTTP server and a Redis-style store from raw TCP sockets to actually understand what's underneath.**
+**CS undergrad who builds the thing the framework normally hides, rebuilt an HTTP server and a Redis-style store from raw TCP sockets to actually understand what's underneath.**
 
 </br>
 
@@ -25,7 +25,7 @@
 visitor@github:~$ cat profile.txt
 
 Name      : Garvit Gaur
-Handle    : cezium55
+Hobbies   : Likes to play Table Tennis and Chess 
 Education : BCA @ GGSIPU
 
 Focus     : Backend Engineering
