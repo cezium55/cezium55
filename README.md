@@ -9,9 +9,9 @@
  ╚═════╝╚══════╝╚══════╝╚═╝ ╚═════╝ ╚═╝     ╚═╝
 ```
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&duration=3500&pause=1000&color=00FF88&center=true&vCenter=true&width=900&lines=Backend+Engineer+%7C+Full-Stack+Developer;Building+Systems+From+First+Principles;FastAPI+%7C+Node.js+%7C+Python;Sockets%2C+Protocols%2C+and+What%27s+Under+the+Framework)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&duration=3500&pause=1000&color=00FF88&center=true&vCenter=true&width=900&lines=Applied+AI+%26+Data+Analyst+Intern;Turning+Raw+Data+Into+Structured+Insight;Python+%7C+SQL+%7C+Power+BI+%7C+LLM+Workflows;EDA%2C+KPIs%2C+and+What+the+Numbers+Are+Saying)](https://git.io/typing-svg)
 
-**CS undergrad who builds the thing the framework normally hides, rebuilt an HTTP server and a Redis-style store from raw TCP sockets to actually understand what's underneath.**
+**BCA graduate who works from raw data toward actionable insight, building end-to-end analytics pipelines, dashboards, and applied AI/CV projects, with growing focus on LLM workflows for turning unstructured data into structured data.**
 
 </br>
 
@@ -25,69 +25,44 @@
 visitor@github:~$ cat profile.txt
 
 Name      : Garvit Gaur
-Hobbies   : Likes to play Table Tennis and Chess 
-Education : BCA @ GGSIPU
+Hobbies   : Likes to play Table Tennis and Chess
+Education : BCA @ GGSIPU (Trinity Institute of Professional Studies), CGPA 8.12
 
-Focus     : Backend Engineering
-            Systems Programming
-            Full-Stack Development
-            Real-Time & Concurrent Systems
+Focus     : Data Analysis & Visualization
+            Applied AI / Computer Vision
+            LLM Workflows & Prompt Basics
+            SQL + Python for Data Pipelines
 
-Currently : Building production-ready software
-            and learning how systems work under the hood.
+Currently : Building end-to-end analytics projects
+            and learning how to turn unstructured data into structured insight.
 
-Open To   : Backend / Full-Stack Internships
-            Open Source Collaboration
+Open To   : Data Analyst / Applied AI Internships
+            Data & Measurement Roles
 ```
 
 ---
 
 # > tech.stack
 
-### Languages
-
 <div align="center">
 
-![Python](https://skillicons.dev/icons?i=python)
-![TypeScript](https://skillicons.dev/icons?i=ts)
-![JavaScript](https://skillicons.dev/icons?i=js)
-![C++](https://skillicons.dev/icons?i=cpp)
-![Postgres](https://skillicons.dev/icons?i=postgres)
-![Bash](https://skillicons.dev/icons?i=bash)
+![My Skills](https://skillicons.dev/icons?i=python,postgres,bash,powerbi,opencv,git,vscode)
 
 </div>
 
-### Frameworks
-
 <div align="center">
 
-![FastAPI](https://skillicons.dev/icons?i=fastapi)
-![React](https://skillicons.dev/icons?i=react)
-![NextJS](https://skillicons.dev/icons?i=nextjs)
-![NodeJS](https://skillicons.dev/icons?i=nodejs)
-![Express](https://skillicons.dev/icons?i=express)
-![Tailwind](https://skillicons.dev/icons?i=tailwind)
+![ETL](https://img.shields.io/badge/-ETL-0d1117?style=for-the-badge&logo=databricks&logoColor=00cc66&labelColor=161b22)
+![Data Cleaning](https://img.shields.io/badge/-Data%20Cleaning-0d1117?style=for-the-badge&labelColor=161b22&color=161b22&logoColor=00cc66)
+![EDA](https://img.shields.io/badge/-EDA-0d1117?style=for-the-badge&labelColor=161b22&color=161b22&logoColor=00cc66)
+![KPI Analysis](https://img.shields.io/badge/-KPI%20Analysis-0d1117?style=for-the-badge&labelColor=161b22&color=161b22&logoColor=00cc66)
+![Trend Analysis](https://img.shields.io/badge/-Trend%20Analysis-0d1117?style=for-the-badge&labelColor=161b22&color=161b22&logoColor=00cc66)
+![Excel](https://img.shields.io/badge/-Excel-0d1117?style=for-the-badge&labelColor=161b22&color=161b22&logoColor=00cc66)
 
-</div>
-
-### Databases
-
-<div align="center">
-
-![Postgres](https://skillicons.dev/icons?i=postgres)
-![MongoDB](https://skillicons.dev/icons?i=mongodb)
-![Redis](https://skillicons.dev/icons?i=redis)
-
-</div>
-
-### Tools
-
-<div align="center">
-
-![Docker](https://skillicons.dev/icons?i=docker)
-![Git](https://skillicons.dev/icons?i=git)
-![Linux](https://skillicons.dev/icons?i=linux)
-![Vscode](https://skillicons.dev/icons?i=vscode)
+![MediaPipe](https://img.shields.io/badge/-MediaPipe-0d1117?style=for-the-badge&labelColor=161b22&color=161b22&logoColor=00cc66)
+![NumPy](https://img.shields.io/badge/-NumPy-0d1117?style=for-the-badge&labelColor=161b22&color=161b22&logoColor=00cc66)
+![LLM Workflows](https://img.shields.io/badge/-LLM%20Workflows-0d1117?style=for-the-badge&labelColor=161b22&color=161b22&logoColor=00cc66)
+![Prompt Basics](https://img.shields.io/badge/-Prompt%20Basics-0d1117?style=for-the-badge&labelColor=161b22&color=161b22&logoColor=00cc66)
 
 </div>
 
@@ -97,12 +72,10 @@ Open To   : Backend / Full-Stack Internships
 
 | Project | Description | Stack |
 |---------|-------------|-------|
-| [**⬡ Mini Redis From Scratch**](https://github.com/cezium55/mini-redis-from-scratch) | Two systems built from raw TCP sockets in one repo: a hand-rolled HTTP/1.0 server and a Redis-style in-memory store, running as isolated processes that talk over a custom binary protocol — no frameworks doing the work underneath. | `Python` `Raw Sockets` `gevent` |
-| [**⬡ API Performance Monitor**](https://github.com/cezium55/api-performance-monitor) | Async FastAPI backend that polls dozens of tracked URLs on a schedule without blocking incoming requests, with JWT auth, Argon2 hashing, and MongoDB storage. Fully containerized. Dashboard UI is next on the roadmap. | `FastAPI` `MongoDB` `Docker` `AsyncIO` |
-| [**⬡ Posture Monitor**](https://github.com/cezium55/Posture-Monitor-Web) | Real-time posture-tracking backend — MediaPipe/OpenCV computer vision streamed live over per-user WebSocket rooms, with JWT auth and MongoDB session logging. | `FastAPI` `WebSockets` `MediaPipe` `MongoDB` |
-| [**⬡ Caching Proxy CLI**](https://github.com/cezium55/caching-proxy-cli) | Command-line proxy that sits in front of any API and caches responses to disk, returning instant HIT/MISS results instead of re-hitting the origin server every time. | `Node.js` `Express` `CLI` |
+| [**⬡ Consumer Complaints Radar**](https://github.com/cezium55) | End-to-end analytics pipeline on 600+ customer reviews — extraction, cleaning, and exploratory analysis to surface recurring complaint patterns (refunds, delivery delays, support, fraud). KPI-focused Power BI dashboard with filters and category-level views, backed by PostgreSQL as the structured data layer. | `Python` `SQL` `PostgreSQL` `Power BI` |
+| [**⬡ Real-Time Posture Detector**](https://github.com/cezium55/Posture-Monitor-Web) | Webcam-based posture monitoring using MediaPipe/OpenCV body-landmark detection. Combines neck position, spine angle, shoulder lean, and head tilt into an interpretable posture score, with frame-smoothing to cut noisy false alerts and duration-tracking for real-time feedback. | `Python` `OpenCV` `MediaPipe` `NumPy` |
 
-> 🔗 Live demos and setup instructions are in each repo's own README.
+> 🔗 Setup instructions and details are in each repo's own README.
 
 ---
 
@@ -111,21 +84,20 @@ Open To   : Backend / Full-Stack Internships
 ```python
 current = {
     "building": {
-        "Load Balancer"  : "Simple request-distribution layer to pair with the sockets project",
-        "Scout AI"       : "Offline AI semantic search engine"
+        "Scout AI"       : "Offline AI semantic search engine",
     },
 
     "learning": [
-        "Distributed Systems",
-        "System Design",
-        "Cloud & DevOps"
+        "LLM Workflows & Prompt Engineering Basics",
+        "System Design fundamentals",
+        "Cloud & DevOps basics"
     ],
 
     "reading": [
         "Designing Data-Intensive Applications"
     ],
 
-    "open_source": "Backend • Python • FastAPI"
+    "focus_areas": "Data Analysis • Applied AI • Power BI • SQL"
 }
 ```
 
@@ -136,10 +108,6 @@ current = {
 <div align="center">
 
 [![GitHub Streak](https://streak-stats.demolab.com?user=cezium55&theme=dark&hide_border=true&background=0d1117&ring=00ff88&fire=00cc66&currStreakLabel=00ff88&sideLabels=c8fcd8&dates=4a7a5a&stroke=1a2a1a&currStreakNum=ffffff&sideNums=ffffff)](https://github.com/cezium55)
-
-</div>
-
-<div align="center">
 
 </div>
 
@@ -158,11 +126,13 @@ current = {
 # > contact
 
 ```bash
-GitHub   : github.com/cezium55
+GitHub    : github.com/cezium55
 
-LinkedIn : www.linkedin.com/in/garvit-gaur-81507525b
+LinkedIn  : www.linkedin.com/in/garvit-gaur-81507525b
 
-Gmail    : garvitgaur47@gmail.com
+Portfolio : cezium55-portfolio.vercel.app
+
+Gmail     : garvitgaur47@gmail.com
 ```
 
 ---
